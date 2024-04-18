@@ -13,6 +13,15 @@ export default {
         "light-gray": "hsl(223, 19%, 93%)",
         "very-light-gray": "hsl(228, 33%, 97%)",
       },
+      screens: {
+        "2xl": "1440px",
+      },
+      height: {
+        custom: "90%",
+      },
+      width: {
+        small: "2px",
+      },
     },
   },
   plugins: [],
