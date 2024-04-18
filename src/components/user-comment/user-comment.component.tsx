@@ -25,7 +25,7 @@ const UserComment = ({
       <div className="flex p-6 gap-x-4">
         <div className="size-15">
           <img
-            src={currentUser.image.png}
+            src={currentUser.image.webp}
             alt={`${currentUser.username} avatar`}
           />
         </div>

@@ -92,7 +92,7 @@ const CommentCard = ({
           <div className="flex justify-between mb-4 w-full">
             <div className="flex items-center gap-x-4">
               <div className="max-w-10">
-                <img src={`${commentData.user.image.png}`} alt="" />
+                <img src={commentData.user.image.webp} alt="" />
               </div>
               <p className="font-bold text-grayish-blue">
                 {commentData.user.username}
